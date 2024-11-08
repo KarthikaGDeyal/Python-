@@ -1,0 +1,9 @@
+x=int(input("enter a no:"))
+y=int(input("enter a no:"))
+print("before swapping value of x=",x)
+print("before swapping value of y=",y)
+x-=y
+y=x+y
+x=y-x
+print("after swapping value of x=",x)
+print("after swapping value of y=",y)

@@ -1,0 +1,9 @@
+x=10
+y=20
+print("before swapping value of x=",x)
+print("before swapping value of y=",y)
+z=x
+x=y
+y=z
+print("after swapping value of x=",x)
+print("after swapping value of y=",y)

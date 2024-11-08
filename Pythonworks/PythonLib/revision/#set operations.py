@@ -1,0 +1,10 @@
+set1={"Anu","Akhil","Anjaly","Adish","Amrutha"}
+set2={"Amrutha","Rohan","Tinu","Sidharth","Adish"}
+print(set1.union(set2))
+print(set1|set2)
+print(set1.intersection(set2))
+print(set1&set2)
+print(set1.difference(set2))
+print(set1-set2)
+print(set1.symmetric_difference(set2))
+print(set1^set2)

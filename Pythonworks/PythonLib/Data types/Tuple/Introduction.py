@@ -1,0 +1,5 @@
+x=(1,2,3,4,5,"python","html")
+print(type(x))
+print(x[0])
+print(x[0:4])
+print(x[-1])

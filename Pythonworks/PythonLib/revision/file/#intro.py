@@ -1,0 +1,15 @@
+myfile=open("abc.txt","w")
+myfile.write("introduction to file handling in python")
+myfile.close()
+x=open("abc.txt","r")
+print(x.read())
+x.close()
+x=open("abc.txt","a")
+x.write("hello")
+x.close()
+x=open("abc.txt","w")
+x.write("hello")
+x.close()
+
+import os
+os.remove("abc.py")
